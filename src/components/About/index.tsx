@@ -6,7 +6,6 @@ export function About() {
     <section className="flex flex-col justify-between h-80vh">
       <div className="description">
 
-        👋
         <h1 className="text-6xl font-extrabold bg-clip-text bg-gradient-to-r from-red via-blue to-blue text-transparent" >
         Eduardo Vilke
         </h1>
