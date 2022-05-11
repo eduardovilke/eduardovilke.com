@@ -3,8 +3,8 @@ import { Card } from "./components/card";
 export function WorkExperience(){
   const jobs = [
     {
-      title: 'Twik',
-      description: 'Desenvolvimento de soluções utilizando TypeScript, dentre elas: Aplicativo com React Native, PWA com React e API com NodeJS. '
+      title: 'ZRP',
+      description: 'Desenvolvimento de soluções utilizando NodeJS, Serverless, AWS Lambda, VueJS, React, Ruby on Rails.'
     },
     {
       title: 'Twoweb Digital',

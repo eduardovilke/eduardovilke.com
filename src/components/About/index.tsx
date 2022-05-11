@@ -9,7 +9,7 @@ export function About() {
         <h1 className="text-6xl font-extrabold bg-clip-text bg-gradient-to-r from-red via-blue to-blue text-transparent" >
         Eduardo Vilke
         </h1>
-        <h2 className="text-3xl font-bold mb-6 bg-clip-text bg-gradient-to-r from-red via-blue to-blue text-transparent">Desenvolvedor Full Stack na Twik</h2>
+        <h2 className="text-3xl font-bold mb-6 bg-clip-text bg-gradient-to-r from-red via-blue to-blue text-transparent">Desenvolvedor Full Stack na ZRP</h2>
         <Image 
           src="/eduardo-face.png" 
           alt="Foto arredondada de perfil mostrando o Eduardo, ao fundo um céu azulado" 
@@ -19,14 +19,14 @@ export function About() {
         <p className="text-2xl text-gray-light mt-6 leading-10">
           Fascinado pelo ecossistema JavaScript, atuo desenvolvendo software na
           <a 
-            href="https://www.twik.com.br/"
+            href="https://www.zrp.com.br/"
             target="_blank"
             className="text-white underline underline-offset-1" 
             rel="noreferrer"
           >
-            Twik
+            Zrp
           </a> 
-          com as tecnologias Typescript, React, React Native, Redux e NodeJS.
+          com as tecnologias NodeJS, Serverless, AWS Lambda, VueJS, React, Ruby on Rails.
         </p>
       </div>
       <footer className="flex justify-start text-gray-light">
