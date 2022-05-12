@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <title>Home | Eduardo Vilke</title>
       </Head>
       <div className="container mx-auto my-16">
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
           <About />
           <WorkExperience />
         </div>

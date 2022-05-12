@@ -1,4 +1,4 @@
-import { Card } from "./components/card";
+import { JobsCards } from "./components/jobCards";
 
 export function WorkExperience(){
   const jobs = [
@@ -19,14 +19,10 @@ export function WorkExperience(){
     }
   ]
   return(
-    <div className="flex flex-col">
-      {jobs.map(job => (
-        <Card 
-          key={job.id}
-          title={job.title} 
-          description={job.description}
-        />
-      ))}
+    <div className="flex flex-col justify-between">
+      <JobsCards 
+        jobs={jobs}
+      />
     </div>
   )
 }
