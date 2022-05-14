@@ -19,10 +19,10 @@ export function WorkExperience(){
     }
   ]
   return(
-    <div className="flex flex-col justify-between">
+    <section className="flex flex-col justify-between">
       <JobsCards 
         jobs={jobs}
       />
-    </div>
+    </section>
   )
 }
