@@ -13,8 +13,8 @@ export function About() {
         <Image 
           src="/eduardo-face.png" 
           alt="Foto arredondada de perfil mostrando o Eduardo, ao fundo um céu azulado" 
-          width={150}
-          height={150}
+          width="150"
+          height="150"
         />
         <p className="text-2xl text-gray-light my-6 leading-10">
           Fascinado pelo ecossistema JavaScript, atuo desenvolvendo software na <a href="https://www.zrp.com.br/" target="_blank" className="text-white underline underline-offset-1 text-zenith" rel="noreferrer">Zrp</a> com as tecnologias NodeJS, Serverless, AWS Lambda, VueJS, React, Ruby on Rails.
