@@ -1,6 +1,6 @@
 import { JobsCards } from "./components/jobCards";
 
-export function WorkExperience(){
+export function WorkExperience(): JSX.Element{
   const jobs = [
     {
       id: 1,
