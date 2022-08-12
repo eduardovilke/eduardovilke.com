@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { About } from '../components/About'
+import { Navbar } from '../components/Navbar';
 import { WorkExperience } from '../components/WorkExperiencie'
 
 interface HomeProps {
@@ -19,6 +20,7 @@ export async function getStaticProps() {
 }
 
 const Home = ({ title, description, image }: HomeProps) => {
+
   return (
     <>
       <Head>
@@ -30,6 +32,7 @@ const Home = ({ title, description, image }: HomeProps) => {
         <meta content={`https://eduardovilke.com${image}`} property="og:image" />
       </Head>
       <div className="container mx-auto px-4 my-16">
+        <Navbar />
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
           <About />
           <WorkExperience />

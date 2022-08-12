@@ -1,11 +1,11 @@
-import Document, {Html, Head, Main, NextScript} from 'next/document'
+import {Html, Head, Main, NextScript} from 'next/document'
 import { GA_TRACKING_ID } from '../lib/gtag'
-export default class MyDocument extends Document{
-  render(){
-    return(
-      <Html lang='pt-BR'>
-        <Head>
 
+export default function MyDocument() {
+
+  return(
+    <Html lang='pt-BR'>
+      <Head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -37,13 +37,11 @@ export default class MyDocument extends Document{
             `,
           }}
         />
-
-        </Head>
-        <body>
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    )
-  }
+      </Head>
+      <body className='bg-white-100 dark:bg-gray-dark'>
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  )
 }
