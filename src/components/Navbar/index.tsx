@@ -1,5 +1,5 @@
 import { BsSunFill, BsMoonFill } from 'react-icons/bs';
-import { useTheme } from '../../hooks/useTheme';
+import { useTheme } from '@hooks/useTheme';
 
 export const Navbar = (): JSX.Element => {
 
