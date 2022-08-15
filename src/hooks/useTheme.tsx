@@ -4,7 +4,7 @@ import {
   useContext, 
   useEffect, 
   useState 
-} from 'react';
+} from 'react'
 
 interface ThemeProviderProps {
   children: ReactNode;
@@ -15,13 +15,13 @@ interface ThemeContextData {
   toggle: () => void;
 }
 
-const ThemeContext = createContext<ThemeContextData>({} as ThemeContextData);
+const ThemeContext = createContext<ThemeContextData>({} as ThemeContextData)
 
 export const ThemeProvider = ({ children }: ThemeProviderProps): JSX.Element => { 
-  const [theme, setTheme] = useState<string>('dark');
+  const [theme, setTheme] = useState<string>('dark')
 
   useEffect(() => {
-    const currentTheme = localStorage.getItem('theme');
+    const currentTheme = localStorage.getItem('theme')
 
     if (!currentTheme) {
       setTheme('dark')
@@ -40,11 +40,11 @@ export const ThemeProvider = ({ children }: ThemeProviderProps): JSX.Element => 
   }
 
   const handleThemeInDom = (): void => {
-    const d = document.documentElement;
+    const d = document.documentElement
     if (d.classList.length > 0) {
-      d.setAttribute("class", "");
+      d.setAttribute('class', '')
     }
-    d.classList.add(theme);
+    d.classList.add(theme)
   }
 
   return (
