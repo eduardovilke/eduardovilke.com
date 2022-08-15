@@ -17,12 +17,13 @@ export const ThemeProvider = ({ children }: ThemeProviderProps): JSX.Element => 
   useEffect(() => {
     const currentTheme = localStorage.getItem('theme');
 
-    if(!currentTheme){
+    if (!currentTheme) {
       setTheme('dark')
       localStorage.setItem('theme', 'dark')
-    }else{
+      handleThemeInDom()
+    } else {
       setTheme(currentTheme)
-      handleThemeInHtml()
+      handleThemeInDom()
     }
   }, [theme])
 
@@ -32,9 +33,9 @@ export const ThemeProvider = ({ children }: ThemeProviderProps): JSX.Element => 
     setTheme(nextTheme)
   }
 
-  const handleThemeInHtml = (): void => {
+  const handleThemeInDom = (): void => {
     const d = document.documentElement;
-    if(d.classList.length > 0){
+    if (d.classList.length > 0) {
       d.setAttribute("class", "");
     }
     d.classList.add(theme);
