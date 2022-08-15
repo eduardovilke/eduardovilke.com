@@ -1,11 +1,11 @@
-import { BsSunFill, BsMoonFill } from 'react-icons/bs';
-import { useTheme } from '@hooks/useTheme';
+import { BsSunFill, BsMoonFill } from 'react-icons/bs'
+import { useTheme } from '@hooks/useTheme'
 
 export const Navbar = (): JSX.Element => {
 
   const { theme, toggle } = useTheme()
 
-  const toggleTheme = (): void => toggle();
+  const toggleTheme = (): void => toggle()
 
   return (
     <div className='flex justify-end'>

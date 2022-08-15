@@ -1,4 +1,4 @@
-import { JobsCards } from "./components/jobCards"
+import { JobsCards } from './components/jobCards'
 
 export function WorkExperience(): JSX.Element{
   const jobs = [

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import Image from 'next/image'
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 export function About(): JSX.Element {
   return (

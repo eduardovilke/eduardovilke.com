@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
-import { About } from '@components/About';
-import { Navbar } from '@components/Navbar';
-import { WorkExperience } from '@components/WorkExperiencie';
+import { About } from '@components/About'
+import { Navbar } from '@components/Navbar'
+import { WorkExperience } from '@components/WorkExperiencie'
 
 interface HomeProps {
   title: string;
