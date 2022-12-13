@@ -15,11 +15,11 @@ export function About(): JSX.Element {
           width="150"
           height="150"
         />
-        <p className="text-2xl dark:text-gray-light text-gray-300 my-6 leading-10">
-          Fascinado pelo ecossistema JavaScript, atuo desenvolvendo software na <a href="https://www.zrp.com.br/" target="_blank" className="dark:text-gray-light text-gray-300 underline underline-offset-1 text-zenith" rel="noreferrer">ZRP</a>, atualmente com as tecnologias: Javascript, Typescript, VueJS, React, Node, e NestJS.
+        <p className="text-2xl dark:text-gray-light text-gray-300 my-6 leading-10 ease-in duration-200">
+          Fascinado pelo ecossistema JavaScript, atuo desenvolvendo software na <a href="https://www.zrp.com.br/" target="_blank" className="dark:text-gray-light text-gray-300 underline underline-offset-1 text-zenith ease-in duration-200" rel="noreferrer">ZRP</a>, atualmente com as tecnologias: Javascript, Typescript, VueJS, React, Node, e NestJS.
         </p>
       </div>
-      <footer className="flex justify-between dark:text-gray-light text-gray-300">
+      <footer className="flex justify-between dark:text-gray-light text-gray-300 ease-in duration-200">
         <a href="https://www.linkedin.com/in/eduardo-vilke/" className="flex items-center text-lg">
           <FaLinkedin />
           <p className="pl-2">Linkedin</p>

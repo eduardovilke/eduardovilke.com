@@ -10,7 +10,7 @@ export const Navbar = (): JSX.Element => {
   return (
     <div className='flex justify-end'>
       <button
-        className='flex items-center justify-center mb-4 border border-transparent text-base font-medium rounded-xl dark:text-gray-light text-gray-300 bg-white dark:bg-gray hover:bg-white dark:hover:bg-gray-200 py-2 text-lg px-2'
+        className='flex items-center justify-center mb-4 border border-transparent text-base font-medium rounded-xl dark:text-gray-light text-gray-300 bg-white dark:bg-gray hover:bg-white dark:hover:bg-gray-200 py-2 text-lg px-2 ease-in duration-200'
         onClick={toggleTheme}
       >
         {theme === 'dark' ? <BsMoonFill /> : <BsSunFill />}

@@ -38,7 +38,7 @@ export default function MyDocument() {
           }}
         />
       </Head>
-      <body className='bg-white-100 dark:bg-gray-dark'>
+      <body className='bg-white-100 ease-in duration-200 dark:bg-gray-dark'>
         <Main />
         <NextScript />
       </body>
