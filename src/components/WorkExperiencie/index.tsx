@@ -15,7 +15,7 @@ export function WorkExperience(): JSX.Element{
     {
       id: 3,
       title: 'Online Sistemas',
-      description: 'Suporte de sistemas ERP e desenvolvimento do sistema em nuvem, utilizando tecnologias como HTML, CSS, Javascript, SQL e PHP.'
+      description: 'Suporte de sistemas ERP e desenvolvimento do sistema em nuvem. Utilizei as tecnologias: HTML, CSS, Javascript, SQL e PHP.'
     }
   ]
   return(
