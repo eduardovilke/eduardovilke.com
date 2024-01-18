@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { About } from '@components/About'
 import { Navbar } from '@components/Navbar'
 import { WorkExperience } from '@components/WorkExperiencie'
+import { NextConfig } from 'next'
 
 interface HomeProps {
   title: string;
@@ -10,12 +11,13 @@ interface HomeProps {
   image: string;
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context: NextConfig) {
   return {
     props: {
       title: 'Eduardo Vilke',
       description: 'Full Stack Developer',
       image: '/eduardo-face.png',
+      messages: (await import(`../dictionaries/${context.locale}.json`)).default
     },
   }
 }

@@ -5,17 +5,17 @@ export function WorkExperience(): JSX.Element{
     {
       id: 1,
       title: 'ZRP',
-      description: 'Desenvolvimento de soluções utilizando NodeJS, Serverless, AWS Lambda, VueJS, React, Ruby on Rails.'
+      key: 'zrp',
     },
     {
       id: 2,
       title: 'Twoweb Digital',
-      description: 'Desenvolvimento de layouts de e-commerce, integrações via API’s, desenvolvimento de websites e aplicativos mobile. Utilizei as tecnologias: Ruby On Rails, Sass, React, Redux, React Native, NodeJS, AdonisJS e Docker.'
+      key: 'twoweb',
     },
     {
       id: 3,
       title: 'Online Sistemas',
-      description: 'Suporte de sistemas ERP e desenvolvimento do sistema em nuvem. Utilizei as tecnologias: HTML, CSS, Javascript, SQL e PHP.'
+      key: 'online',
     }
   ]
   return(

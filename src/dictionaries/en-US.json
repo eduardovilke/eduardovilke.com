@@ -1,0 +1,16 @@
+{
+  "subTitle": "Full Stack Developer",
+  "about": "Fascinated by the JavaScript ecosystem, I work developing software at <company>ZRP</company>, currently with the following technologies: Javascript, Typescript, VueJS, React, Node, and NestJS.",
+  "workExperience": "Work experience",
+  "Jobs": {
+    "zrp": {
+      "description": "Development of solutions using NodeJS, Serverless, AWS Lambda, VueJS, React, Ruby on Rails."
+    },
+    "twoweb": {
+      "description": "Development of e-commerce layouts, integrations via API's, development of websites and mobile applications. I used the following technologies: Ruby On Rails, Sass, React, Redux, React Native, NodeJS, AdonisJS and Docker."
+    },
+    "online": {
+      "description": "Support of ERP systems and development of the cloud system. I used the following technologies: HTML, CSS, Javascript, SQL and PHP."
+    }
+  }
+}
