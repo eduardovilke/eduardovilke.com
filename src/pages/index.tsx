@@ -34,7 +34,7 @@ const Home = ({ title, description, image }: HomeProps) => {
         <meta content="https://eduardovilke.com" property="og:url" />
         <meta content={`https://eduardovilke.com${image}`} property="og:image" />
       </Head>
-      <div className="container mx-auto px-4 my-16">
+      <div className="container mx-auto px-4 my-6 md:my-16">
         <Navbar />
         <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
           <About />
