@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 export function About(): JSX.Element {
   const t = useTranslations()
@@ -15,8 +16,8 @@ export function About(): JSX.Element {
         <Image 
           src="/eduardo-face.png" 
           alt="Foto arredondada de perfil mostrando o Eduardo, ao fundo um céu azulado" 
-          width="150"
-          height="150"
+          width="180"
+          height="180"
         />
         <p className="text-2xl dark:text-gray-light text-gray-300 my-6 leading-10 ease-in duration-200">
           {
@@ -43,9 +44,9 @@ export function About(): JSX.Element {
           <FaGithub />
           <p className="pl-2">Github</p>
         </a>
-        <a href="https://www.instagram.com/eduardo.vilke/" className="flex items-center text-lg"> 
-          <FaInstagram />
-          <p className="pl-2">Instagram</p>
+        <a href="mailto:eduardo.svilke@gmail.com" className="flex items-center text-lg"> 
+          <MdEmail />
+          <p className="pl-2">E-mail</p>
         </a>
       </footer>
     </section>
